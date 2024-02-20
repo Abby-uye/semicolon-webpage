@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 10px 40px;
+    z-index: 1000;
+}
+.semicolonLogo{ 
+    margin-left: 10px;
+}
+.semicolonLogo img{
+    width: 60%;
+}
+.aboutUs ul li{
+display: inline;
+padding-right: 40px;
+width: 30%;
+}
+.buttons{
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+.buttons button{
+    height: 42px;
+    font-size: 14px;   
+    width: 115px;
+    margin-right: 12px;
+   border-radius: 7px;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+
+.forCompanies{
+   
+    background-color:#fff;
+    border:none;
+    
+}
+.forCompanies a{
+    color:red; 
+}
+.applyNow a{
+    color: #fff;
+}
+.applyNow{
+    color:#fff;
+    background-color:red;
+    border: none;
+}
+.aboutUs ul a{
+    color: #000;
+    text-decoration: none;
+}
+.aboutUs{
+    margin-right: 25px;
+}
+.bigGirlImage{
+    background-image: url(./assets/image/Hero-Image_hbuici.png);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    height: 100vh;
+    
+    
+}
+
+.bigGirlImage img{
+    width: 10%;
+}
+
+.bigGirlImage ul li{
+    display: inline;
+}
+
+.become{
+    padding-top: 200px;
+    width: 41%;
+    margin-left: 50px;
+}
+.Get{
+    padding-top: 50px;
+    width: 41%;
+    padding-left: 50px;
+}
+.bigGirlImage ul {
+    padding-top: 20px;
+}
